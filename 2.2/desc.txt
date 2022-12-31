@@ -1,0 +1,3 @@
+Write a function "int eof(int d) that tests if the current position in the file with descriptor "d" is at the end of the file, using "lseek()" and "stat()". The function returns 1 (yes), 0 (no) or -1 (error). 
+
+Use this function in a demonstrative program that copies standard input to standard output (until eof)
