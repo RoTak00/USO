@@ -1,0 +1,1 @@
+Implement the "getpwnam()" function using "setpwent()", "getpwent()" and "endpwent()". Use this function in a program that receives a username as a command-line argument and outputs the corresponding "gecos" information.
