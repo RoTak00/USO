@@ -1,0 +1,1 @@
+Write a program that compares the contents of two files lexicographically (viewed as character secquences). The file specifiers are received as command-line arguments. Higher-order functions will be used (the FILE type).
