@@ -1,0 +1,4 @@
+Write a program that uses backtracking to generate the permutations of {1..n} recursively. (n read from standard input). 
+The program works in such way that, every time after a position is completed, the program launches a child process that generates the next value. The parent process does not wait for the finalization of its child process between continuing, therefore the vectors are built in parallel.
+
+The initial process will allocate an anonimous tube and all the other processes will inherit descriptors from it; when a process finds a permutation, it writes it inside of the tube (and a newline). The initial process will read the permutations inside of the tube and write the to the standard output. No process can end before its children have ended.
