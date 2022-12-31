@@ -1,0 +1,1 @@
+Write a program that determines if the content of a file is included (contiguously) in the content of another file, and how many times. The appearances that overlap are to be considered. The file specifiers are received as command-line arguments. Higher-order functions are to be used (the FILE type).
