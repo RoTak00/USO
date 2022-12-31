@@ -1,0 +1,1 @@
+Write a program that concatenates the value of each even-indexed environment variable to the end of the value of the previous environment variable (uneven-indexed). The indexes begin from 0 (even). The program will output its environment before and after this operation.
