@@ -1,0 +1,1 @@
+Implement the "mv file1 file2" command using link(), unlink() and symlink(). If the destination directory is on the same disk, replace the physical link. If it's on another disk and the file does not have other physical links on the source disk, move the file. Otherwise, create a symbolic link to "file1". If "file2" exists, the name will be re-associated.
