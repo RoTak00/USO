@@ -1,0 +1,4 @@
+Write a program that sorts by merging a character file whose specifier is provided as a command-line argument. 
+Merge sorting means diving the string in two halves. Sorting both of these two halfs in the same method (recursively), then merging the two halves (which are now sorted).
+The program will split the string in two, generate two child processes that will sort the two halves in parallel. The parent waits for its two children to finish, the merges the halves.
+No auxiliary files will be used.
