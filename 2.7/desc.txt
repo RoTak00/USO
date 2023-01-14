@@ -1,0 +1,2 @@
+Implement the "wc [OPTION] [FILES...]" command
+0 or more files can be specified, 0 or more options can be specified (the options can be omitted, or can be a combination of "-" and the letters "c", "w", or "l". Higher-order functions to be used (the FILE type)
